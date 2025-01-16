@@ -40,4 +40,3 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(cycleImages, 4500);
 });
 
-w
