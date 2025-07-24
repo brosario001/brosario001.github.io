@@ -1,0 +1,5 @@
+- add images
+- add about me page
+- write out paragraphs
+- show case top 3 projects
+- when clicking on image, takes you to GitHub repo for the project

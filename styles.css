@@ -1,8 +1,8 @@
 /* Header Styling */
 header {
-    background-color: #111111; /* Dark background for contrast */
-    color: white;
-    padding: 1em 0; /* Reduced vertical padding with dynamic units */
+    background-color: #ffffff; /* Dark background for contrast */
+    color: rgb(255, 255, 255);
+    padding: .25em 0; /* Reduced vertical padding with dynamic units */
     position: sticky;
     top: 0;
     z-index: 1000; /* Ensure the header stays on top */
@@ -18,7 +18,7 @@ header nav {
 header ul {
     list-style: none;
     display: flex;
-    gap: 4rem; /* Set a smaller gap between tabs */
+    gap: 2.5rem; /* Set a smaller gap between tabs */
     margin: 0;
     padding: 0;
     flex-wrap: wrap; /* Ensure the tabs adjust on smaller screens */
@@ -26,19 +26,19 @@ header ul {
 header li {
     margin: 0;
     padding: 0;
+    
 }
 header a {
     text-decoration: none; /* Remove underline */
-    color: #bdbdbd; /* Lighter gray for better visibility */
-    font-size: 1.3rem; /* Text size */
-    transition: color 0.3s ease; /* Smooth color and glow transition */
-    padding: 0; /* No extra spacing around the text */
+    color: #000000; /* Lighter gray for better visibility */
+    font-size: 1.1rem; /* Text size */
+    transition: color 0.4s ease; /* Smooth color and glow transition */
+    padding: 0rem; /* No extra spacing around the text */
     background: none; /* Ensure no background is applied */
     border: none; /* Ensure no borders are applied */
 }
 header a:hover {
-    color: white;
-
+    color: blue;
 }
 
 
@@ -76,7 +76,7 @@ header a:hover {
     align-items: center;
     justify-content: center;
     position: absolute;
-    transition: transform 0.8s ease, opacity 0.8s ease;
+    transition: transform 1.0s ease, opacity 0.8s ease;
     opacity: 0.45;
     transform: scale(0.9);
     z-index: 1;
@@ -96,12 +96,12 @@ header a:hover {
 }
 
 .gallery_img.next {
-    transform: scale(0.8) translateX(12rem);
+    transform: scale(0.8) translateX(15rem);
     z-index: 2;
 }
 
 .gallery_img.prev {
-    transform: scale(0.8) translateX(-12rem);
+    transform: scale(0.8) translateX(-15rem);
     z-index: 2;
 }
 
