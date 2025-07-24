@@ -1,13 +1,12 @@
 import './App.css';
-import SlimShady from './img/Eminem.png';
+import eminem from './img/Eminem.png';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import { useSpring, animated } from '@react-spring/web';
 
 function Eminem(){
   return(
       <img 
-        src={SlimShady}
+        src={eminem}
         alt=""
         className="eminem"
       />
