@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.eminem{
+  width: 100%;
+  height:auto;
+  bottom:0;
+  position: absolute;
+}
+
+@font-face {
+  font-family: 'SlimShady';
+  src: url('./fonts/noctra-drip.solidmelt-solidmelt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.AlbumName{
+  font-family: 'SlimShady', sans-serif;
+  font-size: 6rem;
+  color: rgb(0, 0, 0);
+}
