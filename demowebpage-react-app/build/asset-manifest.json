@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ea637eff.css",
+    "main.js": "./static/js/main.fa76f3aa.js",
+    "static/js/453.d1551108.chunk.js": "./static/js/453.d1551108.chunk.js",
+    "static/media/Eminem.png": "./static/media/Eminem.c8db813181a2461f229e.png",
+    "static/media/noctra-drip.solidmelt-solidmelt.ttf": "./static/media/noctra-drip.solidmelt-solidmelt.0c7dc8b9e729d1afa76e.ttf",
+    "static/media/background.jpg": "./static/media/background.e2e463fe6410bb74e9aa.jpg",
+    "index.html": "./index.html",
+    "main.ea637eff.css.map": "./static/css/main.ea637eff.css.map",
+    "main.fa76f3aa.js.map": "./static/js/main.fa76f3aa.js.map",
+    "453.d1551108.chunk.js.map": "./static/js/453.d1551108.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea637eff.css",
+    "static/js/main.fa76f3aa.js"
+  ]
+}
