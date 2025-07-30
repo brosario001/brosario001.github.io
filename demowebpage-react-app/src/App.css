@@ -6,8 +6,10 @@
 
 .eminem{
   width: 100%;
+  max-width: 1080px;
   height:auto;
-  bottom:0;
+  transform: scale(1.5);
+  bottom:10%;
   position: absolute;
 }
 
@@ -18,8 +20,45 @@
   font-style: normal;
 }
 
+.layer1{
+  border: 10px solid rgb(0, 4, 255);
+}
+
 .AlbumName{
   font-family: 'SlimShady', sans-serif;
   font-size: 6rem;
   color: rgb(0, 0, 0);
+  
+}
+
+.layer2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  border: 10px solid red;
+  gap: 30vw;
+}
+
+.albumCover{
+  display: inline-block;
+  transition: transform 0.08s ease;
+
+  border: 10px solid red; 
+}
+.albumCover:hover{
+  transform:rotate(-4deg);
+}
+
+.merchShirt{
+  display: inline-block;
+  transition: transform 0.08s ease;
+  border: 10px solid red;
+}
+.merchShirt:hover{
+  transform:rotate(4deg);
+}
+
+.layer3{
+  border: 10px solid rgb(0, 55, 255);
 }

@@ -1,5 +1,7 @@
 import './App.css';
 import eminem from './img/Eminem.png';
+import albumCover from './img/realSlimShadyAlbum.png';
+import merchShirt from './img/merch_shirt.png';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -13,6 +15,30 @@ function Eminem(){
   )
 }
 
+function AlbumCover(){
+  return(
+    <a href="">
+      <img
+        src={albumCover}
+        alt=""
+        className = "albumCover"
+      />
+    </a>
+  )
+}
+
+function MerchShirt(){
+  return(
+    <a href="">
+      <img
+        src={merchShirt}
+        alt=""
+        className = "merchShirt"
+      />
+    </a>
+  )
+}
+
 function App() {
   return (
     <div class = "App">
@@ -20,17 +46,19 @@ function App() {
 
       <Parallax pages = {3}>
 
-        <ParallaxLayer offset={.2} speed={.05} >
+        <ParallaxLayer className='layer1' offset={0} speed={.05} factor={0.5}>
           <h1 className = "AlbumName">Real SlimShady</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.05} factor={1.5}>
-          <h2>TEXT LAYER 1</h2>
+        <ParallaxLayer className='layer2' offset={0.35} speed={0.05} factor={1}>
+          <AlbumCover/> 
+          <MerchShirt/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={0.05} factor={3}>
+        <ParallaxLayer className= 'layer3' offset={1.35} speed={0.05} factor={1}>
           <h2>TEXT LAYER 2</h2>
         </ParallaxLayer>
+
       </Parallax>
       
     </div>
